@@ -20,3 +20,8 @@ class work:
         self.rb=self.rb * 1.33 
         self.virab=self.rb // self.vr   
         return "\n Выработка предприятия за %s часа(ов) составляет %s" % (self.vr,self.virab)
+
+a1 = work(8, 5,60, 81)
+a2 = work(12, 8,97,169)
+print (a1.virab
+
